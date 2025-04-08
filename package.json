@@ -1,0 +1,27 @@
+{
+  "name": "eslint-plugin-async-context-tc39",
+  "version": "1.0.1",
+  "description": "eslint-plugin for async-context-tc39",
+  "main": "index.js",
+  "files": [
+    "package.json", "index.js", "eslint-plugin-await-wrap.js"
+  ],
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "author": "Artem Elkin",
+  "license": "MIT",
+  "keywords": [
+    "async-context-tc39",
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "devDependencies": {
+    "eslint": "^9.17.0",
+    "eslint-plugin-eslint-plugin": "^6.4.0"
+  },
+  "peerDependencies": {
+    "eslint": ">= 9.17.0"
+  }
+}
