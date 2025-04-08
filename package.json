@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-async-context-tc39",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "eslint-plugin for async-context-tc39",
   "main": "index.js",
   "files": [
@@ -11,6 +11,10 @@
   },
   "author": "Artem Elkin",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/artelk/eslint-plugin-async-context-tc39.git"
+  },
   "keywords": [
     "async-context-tc39",
     "eslint",
