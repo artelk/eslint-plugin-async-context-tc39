@@ -3,7 +3,7 @@ eslint plugin for async-context-tc39
 
 ## Install
 ```bash
-npm install eslint-plugin-async-context-tc39
+npm install eslint-plugin-async-context-tc39 -D
 ```
 
 ## Usage

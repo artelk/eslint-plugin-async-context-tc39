@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-async-context-tc39",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "eslint-plugin for async-context-tc39",
   "main": "index.js",
   "files": [
