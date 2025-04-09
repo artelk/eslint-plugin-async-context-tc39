@@ -22,3 +22,16 @@ export default tseslint.config(
     actc39.configs['flat/recommended'], // <------
 );
 ```
+or
+```js
+import { defineConfig } from "eslint/config";
+import js from "@eslint/js";
+import globals from "globals";
+import actc39  from 'eslint-plugin-async-context-tc39'
+
+export default defineConfig([
+  { files: ["src/*.{js,mjs,cjs}"], plugins: { js }, extends: ["js/recommended"] },
+  { files: ["src/*.{js,mjs,cjs}"], plugins: { actc39 }, rules: {"actc39/await-wrap": "error"} }, //<----
+  { files: ["src/*.{js,mjs,cjs}"], languageOptions: { globals: { ...globals.browser, Ѧ: true } } },
+]);
+```
